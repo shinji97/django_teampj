@@ -4,12 +4,169 @@
     <head>
         <meta charset="UTF-8">
         <title>Insert title here</title>
-        <link href="../static/css/sj_style.css" rel="stylesheet" type="text/css">
-      
+        <style type="text/css">
+            #header{
+                height: 70px;
+                font-size: 20;
+                text-align: center;
+            }
+            #pro_img{
+                height: 230px;
+                background-color: rgb(156, 40, 11);
+            }
+            #line{
+                width: 100%;
+                height: 6px;
+                background-color: white;
+            }   
+            #fullscreen{
+                width: 100%;
+                height: 100%;
+                background-color: grey;
+            }
+            #screen1{
+                width: 50%;
+                height: 600px;
+                background-color: black;
+                float: left;
+            }
+            #screen1-1{
+                width: 100%;
+                height: 50%;
+                background-color: rgb(235, 235, 235);
+            }
+            #screen1-2{
+                width: 100%;
+                height: 50%;
+                background-color: rgb(235, 235, 235);
+            }
+            #screen2{
+                width: 50%;
+                height: 600px;
+                background-color: black;
+                float: left;
+            }
+            #screen2-1{
+                width: 100%;
+                height: 50%;
+                background-color: rgb(235, 235, 235);
+            }
+            #screen2-2{
+                width: 100%;
+                height: 50%;
+                background-color: rgb(235, 235, 235);
+            }
+            
+            #all{
+                width: 800px;
+                height: 00px;
+                background-color: black;
+            }
+            #first{
+                width: 100px;
+                height: 300px;
+                float: left;
+            }
+            #second{
+                width: 100px;
+                height:300px;
+                float: left;
+            }
+            #third{
+                width: 110px;
+                height: 300px;
+                float: left;    
+            }
+            #fourth{
+                width: 100px;
+                height: 300px;
+                float: left; 
+            }
+            #fifth{
+                width: 200px;
+                height: 300px;
+                float: left; 
+            }
+            
+            
+            #f1{
+                width:100px ;
+                height:90px;
+            }
+            #f2{
+                width:100px ;
+                height:60px;
+            }
+            #f3{
+                width:100px ;
+                height:100px;
+            }
+            
+            #s1{
+                width:100px ;
+                height:90px;
+            }
+            #s2{
+                width:100px ;
+                height:60px;
+            }
+            #s3{
+                width:100px ;
+                height:70px;
+            }
+            #s4{
+                width:100px ;
+                height:100px;
+            }
+            #t1{
+                width:110px ;
+                height:100px;
+            }
+            #t2{
+                width:110px ;
+                height:50px;
+            }
+            #t3{
+                width:110px ;
+                height:70px;
+            }
+            #t4{
+                width: 100px;
+                height: ;
+            }
+            #fo1{
+                width:100px ;
+                height:90px;
+            }
+            #fo2{
+                width:100px ;
+                height:60px;
+            }
+            #fo3{
+                width:100px ;
+                height:70px;
+            }
+            
+            #ff1{
+                width:100px ;
+                height:90px;
+            }
+            #ff2{
+                width:100px ;
+                height:60px;
+            }
+            #ff3{
+                width:100px ;
+                height:70px;
+            }
+            
+            
+        </style>
+   
     </head>
     <body>
         <div id="header" >
-            <img src="../static/img/main/111.png", width="90%"; height=70px><br>
+            <img src="https://github.com/shinji97/django_teampj/blob/main/blog/static/img/sujin/111.png?raw=true", width="90%"; height=70px><br>
         </div>
 
     <div id="pro_img">
@@ -17,7 +174,7 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         </head>
         <body>
-            <img alt="이미지없음" src="../static/img/jeju_name.png" id="pic">
+            <img alt="이미지없음" src="https://github.com/shinji97/django_teampj/blob/main/blog/static/img/sujin/jeju_name.png?raw=true" id="pic">
         
         
         <script type="text/javascript">
@@ -26,10 +183,10 @@
         let num = 0;
         $("#pic").click(function () {
             if(num == 0) {
-                $(this).attr("src", "../static/img/jeju_name.png");
+                $(this).attr("src", "https://github.com/shinji97/django_teampj/blob/main/blog/static/img/sujin/jeju_name.png?raw=true   ");
                 num = 1;
             }else {
-                $(this).attr("src", "../static/img/click1.png");
+                $(this).attr("src", "https://github.com/shinji97/django_teampj/blob/main/blog/static/img/sujin/click1.png?raw=true.png");
                 num = 0;
             }
         });
