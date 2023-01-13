@@ -1,0 +1,58 @@
+#header{
+    height: 70px;
+    font-size: 20;
+    text-align: center;
+}
+
+#line{
+    width: 100%;
+	height: 6px;
+    background-color: white;
+}   
+#line1{
+    width: 100%;
+	height: 4px;
+    background-color: white;
+} 
+#profile_background{
+	width: 30%;
+	height: 100%;
+	background-color: black;
+	float: left;
+}
+#profile_1{
+	width: 100%;
+	height: 160PX;
+	background-color: rgb(194,98,138);
+}
+#profile_2{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgb(167, 115, 185);
+}
+#profile_3{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgb(237,185,29);
+	float: left;
+}
+#profile_4{
+	width: 100%;
+	height: 150PX;
+	background-color:  rgb(237,185,29);
+}
+#profile_5{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgb(69,138,121);
+}    
+#profile_6{
+width: 100%;
+height: 160PX;
+background-color:  rgb(75,104,139);
+}
+#bbs_background{
+	width: 70%;
+	height: 180px;
+	float: right;
+}
