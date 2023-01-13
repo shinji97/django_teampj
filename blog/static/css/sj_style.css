@@ -1,0 +1,177 @@
+#header{
+    height: 70px;
+    font-size: 20;
+    text-align: center;
+}
+#pro_img{
+    height: 230px;
+    background-color: rgb(156, 40, 11);
+}
+#line{
+    width: 100%;
+	height: 6px;
+    background-color: white;
+}   
+#fullscreen{
+	width: 100%;
+	height: 100%;
+	background-color: grey;
+}
+#screen1{
+	width: 50%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+#screen1-1{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(235, 235, 235);
+}
+#screen1-2{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(235, 235, 235);
+}
+#screen2{
+	width: 50%;
+	height: 600px;
+	background-color: black;
+	float: left;
+}
+#screen2-1{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(235, 235, 235);
+}
+#screen2-2{
+	width: 100%;
+	height: 50%;
+	background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+#all{
+    width: 800px;
+    height: 00px;
+    background-color: black;
+}
+#first{
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+#second{
+    width: 100px;
+    height:300px;
+    float: left;
+}
+#third{
+    width: 110px;
+    height: 300px;
+    float: left;    
+}
+#fourth{
+    width: 100px;
+    height: 300px;
+    float: left; 
+}
+#fifth{
+    width: 200px;
+    height: 300px;
+    float: left; 
+}
+
+
+#f1{
+    width:100px ;
+    height:90px;
+}
+#f2{
+    width:100px ;
+    height:60px;
+    color: rgb(218, 57, 57);
+    font-size: 47px;
+    font-weight: bold;
+}
+#f3{
+    width:100px ;
+    height:100px;
+}
+
+#s1{
+    width:100px ;
+    height:90px;
+    color: rgb(140, 133, 133); font-size: 33px; font-weight: bold;
+}
+#s2{
+    width:100px ;
+    height:60px;
+    color: rgb(218, 57, 57);
+    font-size: 47px;
+    font-weight: bold;
+
+}
+#s3{
+    width:100px ;
+    height:70px;
+    color: rgb(242, 150, 150); font-size: 60px; font-weight: bold;
+}
+#s4{
+    width:100px ;
+    height:100px;
+    color: rgb(160, 137, 222); font-size: 25px; font-weight: bold;
+}
+#t1{
+    width:110px ;
+    height:100px;
+    color: rgb(100, 122, 17); font-size: 30px; font-weight: bold;
+}
+#t2{
+    width:110px ;
+    height:50px;
+    color: rgb(210, 145, 49); font-size: 23px; font-weight: bold;
+}
+#t3{
+    width:110px ;
+    height:70px;
+    color: rgb(242, 150, 150); font-size: 60px; font-weight: bold;
+}
+#t4{
+    width: 100px;
+    color: rgb(66, 173, 212); font-size: 33px; font-weight: bold;
+}
+#fo1{
+    width:100px ;
+    height:90px;
+    color: rgb(215, 39, 239); font-size: 30px; font-weight: bold;
+}
+#fo2{
+    width:100px ;
+    height:60px;
+    color: rgb(77, 190, 39); font-size: 42px; font-weight: bold;
+}
+#fo3{
+    width:100px ;
+    height:70px;
+    color: rgb(242, 150, 150); font-size: 60px; font-weight: bold;
+}
+
+#fo4{
+    width:100px ;
+    height:30px;
+    color: rgb(66, 173, 212); font-size: 33px; font-weight: bold;
+}
+
+#ff1{
+    width:100px ;
+    height:90px;
+}
+#ff2{
+    width:100px ;
+    height:60px;
+}
+#ff3{
+    width:100px ;
+    height:70px;
+}
