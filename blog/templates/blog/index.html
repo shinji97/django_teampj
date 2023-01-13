@@ -1,19 +1,198 @@
+
 <!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <title>Blog</title>
-    </head>
-    <body>
-        <h1>Blog</h1>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#header{
+    height: 70px;
+    font-size: 20;
+    text-align: center;
+}
+
+#line{
+    width: 100%;
+	height: 6px;
+    background-color: white;
+}   
+#line1{
+    width: 100%;
+	height: 4px;
+    background-color: white;
+} 
+#profile_background{
+	width: 30%;
+	height: 100%;
+	background-color: black;
+	float: left;
+}
+#profile_1{
+	width: 100%;
+	height: 160PX;
+	background-color: rgba(33, 136, 254, 0.913);
+}
+#profile_2{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgba(69, 156, 255, 0.913);
+}
+#profile_3{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgba(110, 176, 252, 0.913);
+	float: left;
+}
+#profile_4{
+	width: 100%;
+	height: 150PX;
+	background-color:  rgba(136, 191, 254, 0.913);
+}
+#profile_5{
+	width: 100%;
+	height: 160PX;
+	background-color:  rgba(133, 188, 251, 0.913);
+}    
+#profile_6{
+width: 100%;
+height: 160PX;
+background-color:  rgba(202, 227, 254, 0.913);
+}
+#bbs_background{
+	width: 70%;
+	height: 180px;
+	float: right;
+}
+
+
+</style>
+</head>
+<body>
+    <div id="header">
+        일석이조입니다 헤더입니다
+    </div>
+	<div id="profile_background">
+
+		<div id="profile_1">
+            <table id="profile_table" border="1", height="160px" ,width="80%" > 
+                <thead align="center" >
+                    <tr>
+                        <th>
+                            <a href="jangmark">
+                                <img src ="../../week3_teampj/Screenshot_20230112_193247_Instagram.jpg" height="150px">
+                            </a>
+                        </th>
+                        <th>
+                        <h1>홍 길 동 </h1>  
+                        Backend Developer 백엔드 개발자<br><br>
+                        좌우명 : 열심히 살자       <br>            
+                    </tr>
+                </thead>
+            </table>
+		</div>
+
+        <div id="line">
+        </div>
+
+		<div id="profile_2">
+            <table id="profile_table" border="1", height="160px" ,width="80%" > 
+                <thead align="center" >
+                    <tr>
+                        <th>
+                        <img src="../../week3_teampj/Screenshot_20230112_193247_Instagram.jpg" height="150px" >
+                        </th>
+                        <th>
+                        <h1>홍 길 동 </h1>  
+                        Backend Developer 백엔드 개발자                   
+                    </tr>
+                </thead>
+            </table>
+		</div>
+
+        <div id="line">
+        </div>
+
+        <div id="profile_3">
+            <table id="profile_table" border="1", height="160px" ,width="80%" > 
+                <thead align="center" >
+                    <tr>
+                        <th>
+                        <img src="../../week3_teampj/Screenshot_20230112_193247_Instagram.jpg" height="150px" >
+                        </th>
+                        <th>
+                        <h1>홍 길 동 </h1>  
+                        Backend Developer 백엔드 개발자____                   
+                    </tr>
+                </thead>
+            </table>
+		</div>
+
+        <div id="line">
+        </div>
+
+        <div id="profile_4">    
+		</div>
+        <div id="line1">
+        </div>
+        <div id="line">
+        </div>
+
+        <div id="profile_5">
+            <table id="profile_table" border="1", height="160px" ,width="80%" > 
+                <thead align="center" >
+                    <tr>
+                        <th>
+                        <img src="../../week3_teampj/Screenshot_20230112_193247_Instagram.jpg" height="150px" >
+                        </th>
+                        <th>
+                        <h1>홍 길 동 </h1>  
+                        Backend Developer 백엔드 개발자                   
+                    </tr>
+                </thead>
+            </table>
+		</div>
+
+        <div id="line">
+        </div>
+
+        <div id="profile_6">
+            <table id="profile_table" border="1", height="160px" ,width="80%" > 
+                <thead align="center" >
+                    <tr>
+                        <th>
+                        <img src="../../week3_teampj/Screenshot_20230112_193247_Instagram.jpg" height="150px" >
+                        </th>
+                        <th>
+                        <h1>홍 길 동 </h1>  
+                        Backend Developer 백엔드 개발자                   
+                    </tr>
+                </thead>
+            </table>
+		</div>
+	</div>    
+	<div id="bbs_background">
+        <table>
+            <thead>
+                <tr>
+                    <th width=50>
+                    </th>
+                    <th align=left>
+                        <h1>Blog</h1>
 
         {% for p in posts %}
-        <hr>
-        <h2> <a href="{{ p.get_absolute_url }}"> {{ p.title }} </a></h2>
-        <h2> {{ p.content }} </h2>
-        <h4> {{p.created_at}} </h4>
-
+            <hr>
+            <h2> <a href="{{ p.get_absolute_url }}">{{p.id}}. {{p.title}}</a></h2>
+            <h4>{{p.content}}</h4>
+            <p>{{p.created_at}}</p>
+            <p>{{p.update_at}}</p>
         {% endfor %}
         
-    </body>
+        <h2> <a href="jangmark"> jangmark </a></h2>  
+                    </th>
+                <tr>
+            </thead>
+        <table>
+	</div>  
+
+</body>
 </html>
