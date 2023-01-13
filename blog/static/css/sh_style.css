@@ -1,0 +1,58 @@
+#header{
+    height: 70px;
+    font-size: 20;
+    text-align: center;
+}
+
+#pro_img{
+    height: 200px;
+    background-color:rgb(255, 212, 0);
+}
+
+#fullscreen{
+   width: 100%;
+   height: 100%;
+   background-color: grey;
+}
+
+#screen1{
+   width: 50%;
+   height: 650px;
+   background-color: black;
+   float: left;
+}
+
+#screen1-1{
+   width: 100%;
+   height: 55%;
+   background-color: rgb(255, 250, 205);
+   float:left;
+}
+
+#screen1-2{
+   width: 100%;
+   height: 45%;
+   background-color: rgb(255, 250, 240);
+   float:left;
+}
+
+#screen2{
+   width: 50%;
+   height: 650px;
+   background-color: black;
+   float: left;
+}
+
+#screen2-1{
+   width: 100%;
+   height: 55%;
+   background-color: rgb(255, 250, 240);
+   float:left;
+}
+
+#screen2-2{
+   width: 100%;
+   height: 45%;
+   background-color: rgb(255, 250, 205);
+   float:left;
+}
